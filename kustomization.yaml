@@ -3,6 +3,7 @@ kind: Kustomization
 
 resources:
   - operator/operator.yaml
+  - test-database/test-db.yaml
 
 commonLabels:
   managed-by: argocd
